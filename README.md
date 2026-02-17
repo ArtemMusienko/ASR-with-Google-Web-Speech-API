@@ -2,8 +2,12 @@
 
 ## ASR with Google Web Speech API
 
-> Для запуска кода необязателен графический ускоритель.
+[![ru](https://img.shields.io/badge/README_на_русском-2A2C39?style=for-the-badge&logo=github&logoColor=white)](README.ru.md)
 
-В качестве датасета возьмем [этот](https://www.kaggle.com/datasets/bryanpark/russian-single-speaker-speech-dataset), который расположен на **Kaggle**. Используемые метрики: **WER (Word Error Rate)** и **CER (Character Error Rate)**. В работе представлено обоснование использования этих метрик, общий вывод по работе кода и сравнительный анализ на 5 примерах.
+> A graphics accelerator is not required to run the code.
 
-> Всю магию творит эта библиотека **SpeechRecognition**. Более детальный разбор кода представлен в самой работе!
+We will use this [dataset](https://www.kaggle.com/datasets/bryanpark/russian-single-speaker-speech-dataset), which is located on **Kaggle**, as our dataset. To use this dataset, you need to register on **Kaggle**. The metrics we will use are **WER (Word Error Rate)** and **CER (Character Error Rate)**. The paper provides a rationale for using these metrics, a general conclusion on the code's performance, and a comparative analysis based on 5 examples.
+
+ **Google Web Speech API** is a ready-made cloud-based ML model for speech recognition and synthesis, allowing you to add voice features to your applications without training your own models.
+
+ > The magic is performed by the **SpeechRecognition** library. A more detailed code analysis is provided in the paper itself!
